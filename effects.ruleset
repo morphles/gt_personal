@@ -328,6 +328,16 @@ nreqs   =
       "UnitClass", "Missile", "Local"
     }
 
+; Vision benefit from deep ocean (for explorer)
+[effect_ocean_vision]
+type    = "Unit_Vision_Radius_Sq"
+value   = 4
+reqs    =
+    { "type", "name", "range"
+      "Terrain", "Deep Ocean", "Local"
+      "UnitType", "Explorer", "Local"
+    }
+
 ; Movement penalty if ended turn at mountains (for every land unit)
 [effect_mountains_movement]
 type    = "Move_Bonus"
@@ -352,7 +362,7 @@ nreqs   =
 ; Nuclear power gives +1 moves to sea units
 [effect_nuclear_powered_boats]
 type    = "Move_Bonus"
-value   = 1
+value   = 2
 reqs    =
     { "type", "name", "range"
       "Tech", "Nuclear Power", "Player"
@@ -362,7 +372,7 @@ reqs    =
 ; Advanced Flight enables movement of nuclear weapons
 [effect_nuclear_bomber]
 type    = "Move_Bonus"
-value   = 8
+value   = 16
 reqs    =
     { "type", "name", "range"
       "Tech", "Advanced Flight", "Player"
@@ -372,7 +382,7 @@ reqs    =
 ; Rocketry doubles movement of nuclear weapons
 [effect_nuclear_missile]
 type    = "Move_Bonus"
-value   = 8
+value   = 16
 reqs    =
     { "type", "name", "range"
       "Tech", "Rocketry", "Player"
@@ -3269,7 +3279,7 @@ reqs    =
 
 [effect_lighthouse_move]
 type    = "Move_Bonus"
-value   = 1
+value   = 2
 reqs    =
     { "type", "name", "range"
       "Building", "Lighthouse", "Player"
@@ -3293,7 +3303,7 @@ nreqs   =
 
 [effect_lighthouse_trireme_move]
 type    = "Move_Bonus"
-value   = 1
+value   = 2
 reqs    =
     { "type", "name", "range"
       "Building", "Lighthouse", "Player"
@@ -3311,7 +3321,7 @@ nreqs   =
 ; in a perfectly legal coastal city which also happens to be on a river
 [effect_lighthouse_trireme_move_2]
 type    = "Move_Bonus"
-value   = 1
+value   = 2
 reqs    =
     { "type", "name", "range"
       "Building", "Lighthouse", "Player"
@@ -3337,7 +3347,7 @@ nreqs   =
 
 [effect_magellans_expedition_move]
 type    = "Move_Bonus"
-value   = 1
+value   = 2
 reqs    =
     { "type", "name", "range"
       "Building", "Magellan's Expedition", "Player"
