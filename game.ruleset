@@ -370,8 +370,8 @@ set =
     { "name", "value"
       "startunits", "ccwwxxx"
       "citymindist", 3
-      "techlevel", 1
-      "sciencebox", 100
+      "techlevel", 0
+      "sciencebox", 150
       "borders", "ENABLED"
       "foggedborders", "ENABLED"
       "happyborders", "DISABLED"
@@ -395,4 +395,5 @@ set =
 	  "landmass", 35
 	  "steepness", 5
 	  "wetness", 50
+	  "contactturns", 0
     }

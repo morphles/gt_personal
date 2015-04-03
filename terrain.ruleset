@@ -1054,7 +1054,7 @@ reqs           =
     }
 gui_type       = "Fortress"
 build_time     = 6
-border_sq      = -1
+border_sq      = 1
 conflicts      = "Airbase"
 native_to      = "Land", "Small Land", "Big Land"
 flags          = "NoAggressive", "NoStackDeath", "DiplomatDefense", "NativeTile"
@@ -1306,7 +1306,7 @@ move_mode      = "Cardinal"
 trade_incr_const = 1
 compat_special = "River"
 native_to      = "Land", "Small Land", "Merchant", "Trireme"
-flags          = "River", "PreventsOtherRoads", "NativeTile", "Natural"
+flags          = "River", "PreventsOtherRoads", "NativeTile", "Natural", "UnrestrictedInfra" 
 ; /* xgettext:no-c-format */
 helptext       = _("\
 Any land terrain type may have a River on it. A River adds 1\

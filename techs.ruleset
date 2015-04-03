@@ -242,7 +242,6 @@ req2     = "Currency"
 flags    = ""
 graphic     = "a.construction"
 graphic_alt = "-"
-helptext = _("Allows Settlers, Workers and Engineers to build fortresses.")
 cost     =  50
 
 [advance_currency]
@@ -314,8 +313,8 @@ cost     =  50
 
 [advance_espionage]
 name     = _("Espionage")
-req1     = "Communism"
-req2     = "Democracy"
+req1     = "The Republic"
+req2     = "Feudalism"
 flags    = ""
 graphic     = "a.espionage"
 graphic_alt = "-"
@@ -491,6 +490,7 @@ req2     = "None"
 flags    = ""
 graphic     = "a.masonry"
 graphic_alt = "-"
+helptext = _("Allows Settlers, Workers and Engineers to build fortresses.")
 cost     =  50
 
 [advance_mass_production]
