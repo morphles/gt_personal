@@ -396,4 +396,5 @@ set =
 	  "steepness", 5
 	  "wetness", 50
 	  "contactturns", 0
+	  "allowtake", "H"
     }
