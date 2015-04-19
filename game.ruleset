@@ -368,7 +368,7 @@ colorlist =
 ;
 set =
     { "name", "value"
-      "startunits", "ccwwxxx"
+      "startunits", "ccwwwwxxx"
       "citymindist", 3
       "techlevel", 0
       "sciencebox", 150
@@ -397,4 +397,5 @@ set =
 	  "wetness", 50
 	  "contactturns", 0
 	  "allowtake", "H"
+	  "revolen", 2
     }
