@@ -368,10 +368,10 @@ colorlist =
 ;
 set =
     { "name", "value"
-      "startunits", "ccwwwwxxx"
+      "startunits", "cccwwwwwxxx"
       "citymindist", 3
       "techlevel", 0
-      "sciencebox", 150
+      "sciencebox", 120
       "borders", "ENABLED"
       "foggedborders", "ENABLED"
       "happyborders", "DISABLED"

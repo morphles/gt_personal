@@ -3700,11 +3700,6 @@ reqs    =
 type    = "Pollu_Pop_Pct"
 value   = -100
 
-; tech_upkeep_divider = 6000, Max tech upkeep = 13
-[effect_upkeep_tech_base]
-type    = "Tech_Upkeep_Free"
-value   = 3
-
 [effect_tech_cost_base]
 type    = "Tech_Cost_Factor"
 value   = 1
