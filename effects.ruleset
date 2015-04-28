@@ -1692,6 +1692,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "Airport", "City"
+      "Tech", "Radio", "Player"
       "UnitClass", "Air", "Local"
     }
 nreqs   =
@@ -1706,6 +1707,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "Airport", "City"
+      "Tech", "Radio", "Player"
       "UnitClass", "Helicopter", "Local"
     }
 nreqs   =
@@ -1720,6 +1722,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "Airport", "City"
+      "Tech", "Radio", "Player"
       "UnitClass", "Missile", "Local"
     }
 nreqs   =
@@ -1734,6 +1737,7 @@ value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "Airport", "City"
+      "Tech", "Radio", "Player"
       "UnitClass", "Air", "Local"
     }
 
@@ -1743,6 +1747,7 @@ value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "Airport", "City"
+      "Tech", "Radio", "Player"
       "UnitClass", "Helicopter", "Local"
     }
 
@@ -1752,6 +1757,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "Airport", "City"
+      "Tech", "Radio", "Player"
     }
 
 ; Base max city size of 8
@@ -1766,6 +1772,7 @@ value   = 8
 reqs    =
     { "type", "name", "range"
       "Building", "Aqueduct", "City"
+      "Tech", "Construction", "Player"
     }
 
 [effect_aqueduct_1]
@@ -1774,6 +1781,7 @@ value   = 30
 reqs    =
     { "type", "name", "range"
       "Building", "Aqueduct", "City"
+      "Tech", "Construction", "Player"
     }
 
 [effect_aqueduct_river]
@@ -1833,6 +1841,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Bank", "City"
       "OutputType", "Gold", "Local"
+      "Tech", "Banking", "Player"
     }
 
 [effect_bank_1]
@@ -1842,6 +1851,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Bank", "City"
       "OutputType", "Luxury", "Local"
+      "Tech", "Banking", "Player"
     }
 
 [effect_barracks]
@@ -1911,6 +1921,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks II", "City"
       "UnitClass", "Land", "Local"
+      "Tech", "Gunpowder", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -1926,6 +1937,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks II", "City"
       "UnitClass", "Big Land", "Local"
+      "Tech", "Gunpowder", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -1941,6 +1953,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks II", "City"
       "UnitClass", "Land", "Local"
+      "Tech", "Gunpowder", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -1954,6 +1967,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks II", "City"
       "UnitClass", "Big Land", "Local"
+      "Tech", "Gunpowder", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -1967,6 +1981,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks III", "City"
       "UnitClass", "Land", "Local"
+      "Tech", "Mobile Warfare", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -1981,6 +1996,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks III", "City"
       "UnitClass", "Big Land", "Local"
+      "Tech", "Mobile Warfare", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -1995,6 +2011,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks III", "City"
       "UnitClass", "Land", "Local"
+      "Tech", "Mobile Warfare", "Player"
     }
 
 [effect_barracks_iii_b_hp]
@@ -2004,6 +2021,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Barracks III", "City"
       "UnitClass", "Big Land", "Local"
+      "Tech", "Mobile Warfare", "Player"
     }
 
 [effect_cathedral]
@@ -2012,6 +2030,7 @@ value   = 3
 reqs    =
     { "type", "name", "range"
       "Building", "Cathedral", "City"
+      "Tech", "Monotheism", "Player"
     }
 
 [effect_cathedral_1]
@@ -2021,6 +2040,7 @@ reqs    =
     { "type", "name", "range"
       "Tech", "Theology", "Player"
       "Building", "Cathedral", "City"
+      "Tech", "Monotheism", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2097,6 +2117,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "City Walls", "City"
+      "Tech", "Masonry", "Player"
     }
 
 [effect_city_walls_visible]
@@ -2105,6 +2126,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "City Walls", "City"
+      "Tech", "Masonry", "Player"
     }
 
 [effect_coastal_defense]
@@ -2114,6 +2136,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Coastal Defense", "City"
       "UnitClass", "Sea", "Local"
+      "Tech", "Navigation", "Player"
     }
 
 [effect_coastal_defense_trireme]
@@ -2123,6 +2146,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Coastal Defense", "City"
       "UnitClass", "Trireme", "Local"
+      "Tech", "Navigation", "Player"
     }
 
 [effect_colosseum]
@@ -2131,6 +2155,7 @@ value   = 3
 reqs    =
     { "type", "name", "range"
       "Building", "Colosseum", "City"
+      "Tech", "Construction", "Player"
     }
 
 [effect_colosseum_1]
@@ -2140,6 +2165,7 @@ reqs    =
     { "type", "name", "range"
       "Tech", "Electricity", "Player"
       "Building", "Colosseum", "City"
+      "Tech", "Construction", "Player"
     }
 
 [effect_courthouse]
@@ -2149,6 +2175,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Courthouse", "City"
       "OutputType", "Trade", "Local"
+      "Tech", "Code of Laws", "Player"
     }
 
 [effect_courthouse_1]
@@ -2158,6 +2185,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Courthouse", "City"
       "OutputType", "Shield", "local"
+      "Tech", "Code of Laws", "Player"
     }
 
 ; effect always has value>=50, so this halves food waste
@@ -2168,6 +2196,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Courthouse", "City"
       "OutputType", "Food", "local"
+      "Tech", "Code of Laws", "Player"
     }
 
 [effect_courthouse_3]
@@ -2176,6 +2205,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "Courthouse", "City"
+      "Tech", "Code of Laws", "Player"
     }
 
 [effect_courthouse_incite]
@@ -2184,6 +2214,7 @@ value   = 300
 reqs    =
     { "type", "name", "range"
       "Building", "Courthouse", "City"
+      "Tech", "Code of Laws", "Player"
     }
 
 [effect_factory]
@@ -2193,6 +2224,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Factory", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Industrialization", "Player"
     }
 
 [effect_factory_1]
@@ -2201,6 +2233,7 @@ value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "Factory", "City"
+      "Tech", "Industrialization", "Player"
     }
 
 ; effect always has value>=50, so this halves food waste
@@ -2211,6 +2244,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Granary", "City"
       "OutputType", "Food", "local"
+      "Tech", "Pottery", "Player"
     }
 
 ; Free Granary effect in small cities
@@ -2230,6 +2264,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Granary", "City"
       "MinSize", "4", "City"
+      "Tech", "Pottery", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2244,6 +2279,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Granary", "City"
       "MinSize", "5", "City"
+      "Tech", "Pottery", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2258,6 +2294,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Granary", "City"
       "MinSize", "7", "City"
+      "Tech", "Pottery", "Player"
     }
 
 [effect_harbour]
@@ -2268,6 +2305,7 @@ reqs    =
       "TerrainClass", "Oceanic", "Local"
       "Building", "Harbour", "City"
       "OutputType", "Food", "Local"
+      "Tech", "Seafaring", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2282,6 +2320,7 @@ reqs    =
       "Building", "Factory", "City"
       "Building", "Hydro Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Electronics", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2297,6 +2336,7 @@ reqs    =
       "Building", "Mfg. Plant", "City"
       "Building", "Hydro Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Electronics", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2310,6 +2350,7 @@ value   = -50
 reqs    =
     { "type", "name", "range"
       "Building", "Hydro Plant", "City"
+      "Tech", "Electronics", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2324,6 +2365,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Recycling Center", "City"
       "Building", "Hydro Plant", "City"
+      "Tech", "Electronics", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2338,6 +2380,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Hoover Dam", "Player"
       "Building", "Hydro Plant", "City"
+      "Tech", "Electronics", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2361,6 +2404,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Marketplace", "City"
       "OutputType", "Gold", "Local"
+      "Tech", "Currency", "Player"
     }
 
 [effect_marketplace_1]
@@ -2370,6 +2414,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Marketplace", "City"
       "OutputType", "Luxury", "Local"
+      "Tech", "Currency", "Player"
     }
 
 ; Counteracts population pollution from any 2 other buildings
@@ -2379,6 +2424,7 @@ value   = -200
 reqs    =
     { "type", "name", "range"
       "Building", "Mass Transit", "City"
+      "Tech", "Mass Production", "Player"
     }
 
 [effect_mfg_plant]
@@ -2388,6 +2434,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Mfg. Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Plastics", "Player"
     }
 
 [effect_mfg_plant_1]
@@ -2396,6 +2443,7 @@ value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "Mfg. Plant", "City"
+      "Tech", "Plastics", "Player"
     }
 
 [effect_nuclear_plant]
@@ -2406,6 +2454,7 @@ reqs    =
       "Building", "Factory", "City"
       "Building", "Nuclear Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Nuclear Power", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2422,6 +2471,7 @@ reqs    =
       "Building", "Mfg. Plant", "City"
       "Building", "Nuclear Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Nuclear Power", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2436,6 +2486,7 @@ value   = -50
 reqs    =
     { "type", "name", "range"
       "Building", "Nuclear Plant", "City"
+      "Tech", "Nuclear Power", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2451,6 +2502,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Recycling Center", "City"
       "Building", "Nuclear Plant", "City"
+      "Tech", "Nuclear Power", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2467,6 +2519,7 @@ reqs    =
       "Terrain", "Ocean", "Local"
       "Building", "Offshore Platform", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Miniaturization", "Player"
     }
 
 [effect_offshore_platform_1]
@@ -2478,6 +2531,7 @@ reqs    =
       "Building", "Offshore Platform", "City"
       "Base", "Buoy", "Local"
       "OutputType", "Shield", "Local"
+      "Tech", "Miniaturization", "Player"
     }
 
 [effect_offshore_platform_2]
@@ -2486,6 +2540,7 @@ value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "Offshore Platform", "City"
+      "Tech", "Miniaturization", "Player"
     }
 
 [effect_palace]
@@ -2564,6 +2619,7 @@ value   = 2
 reqs    =
     { "type", "name", "range"
       "Building", "Police Station", "City"
+      "Tech", "Communism", "Player"
     }
 
 [effect_police_station_1]
@@ -2572,6 +2628,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "Police Station", "City"
+      "Tech", "Communism", "Player"
     }
 
 ; Net effect is to neutralize one unit's unhappiness
@@ -2582,6 +2639,7 @@ reqs    =
     { "type", "name", "range"
       "Gov", "Democracy", "Player"
       "Building", "Police Station", "City"
+      "Tech", "Communism", "Player"
     }
 nreqs    =
     { "type", "name", "range"
@@ -2595,6 +2653,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Port Facility", "City"
       "UnitClass", "Sea", "Local"
+      "Tech", "Amphibious Warfare", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2609,6 +2668,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Port Facility", "City"
       "UnitClass", "Sea", "Local"
+      "Tech", "Amphibious Warfare", "Player"
     }
 
 [effect_port_facility_trireme]
@@ -2618,6 +2678,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Port Facility", "City"
       "UnitClass", "Trireme", "Local"
+      "Tech", "Amphibious Warfare", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2632,6 +2693,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Port Facility", "City"
       "UnitClass", "Trireme", "Local"
+      "Tech", "Amphibious Warfare", "Player"
     }
 
 [effect_power_plant]
@@ -2642,6 +2704,7 @@ reqs    =
       "Building", "Factory", "City"
       "Building", "Power Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Refining", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2659,6 +2722,7 @@ reqs    =
       "Building", "Mfg. Plant", "City"
       "Building", "Power Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Refining", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2675,6 +2739,7 @@ value   = -50
 reqs    =
     { "type", "name", "range"
       "Building", "Recycling Center", "City"
+      "Tech", "Recycling", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2700,6 +2765,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "SAM Battery", "City"
       "UnitClass", "Air", "Local"
+      "Tech", "Rocketry", "Player"
     }
 
 [effect_sam_battery_1]
@@ -2709,6 +2775,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "SAM Battery", "City"
       "UnitClass", "Helicopter", "Local"
+      "Tech", "Rocketry", "Player"
     }
 
 [effect_sdi_defense]
@@ -2717,6 +2784,7 @@ value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "SDI Defense", "City"
+      "Tech", "Laser", "Player"
     }
 
 [effect_sdi_defense_1]
@@ -2726,6 +2794,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "SDI Defense", "City"
       "UnitClass", "Missile", "Local"
+      "Tech", "Laser", "Player"
     }
 
 [effect_sewer_system]
@@ -2735,6 +2804,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Sewer System", "City"
       "Building", "Aqueduct", "City"
+      "Tech", "Sanitation", "Player"
     }
 
 [effect_sewer_system_1]
@@ -2744,6 +2814,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Sewer System", "City"
       "Building", "Aqueduct, Lake", "City"
+      "Tech", "Sanitation", "Player"
     }
 
 [effect_sewer_system_2]
@@ -2753,6 +2824,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Sewer System", "City"
       "Building", "Aqueduct, River", "City"
+      "Tech", "Sanitation", "Player"
     }
 
 [effect_sewer_system_health]
@@ -2761,6 +2833,7 @@ value   = 30
 reqs    =
     { "type", "name", "range"
       "Building", "Sewer System", "City"
+      "Tech", "Sanitation", "Player"
     }
 
 [effect_solar_plant]
@@ -2771,6 +2844,7 @@ reqs    =
       "Building", "Factory", "City"
       "Building", "Solar Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Environmentalism", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2785,6 +2859,7 @@ reqs    =
       "Building", "Mfg. Plant", "City"
       "Building", "Solar Plant", "City"
       "OutputType", "Shield", "Local"
+      "Tech", "Environmentalism", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2797,6 +2872,7 @@ value   = -75
 reqs    =
     { "type", "name", "range"
       "Building", "Solar Plant", "City"
+      "Tech", "Environmentalism", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2810,6 +2886,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Recycling Center", "City"
       "Building", "Solar Plant", "City"
+      "Tech", "Environmentalism", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2871,6 +2948,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Stock Exchange", "City"
       "OutputType", "Gold", "Local"
+      "Tech", "Economics", "Player"
     }
 
 [effect_stock_exchange_1]
@@ -2880,6 +2958,7 @@ reqs    =
     { "type", "name", "range"
       "Building", "Stock Exchange", "City"
       "OutputType", "Luxury", "Local"
+      "Tech", "Economics", "Player"
     }
 
 [effect_super_highways]
@@ -2890,6 +2969,7 @@ reqs    =
       "Road", "Road", "Local"
       "Building", "Super Highways", "City"
       "OutputType", "Trade", "Local"
+      "Tech", "Automobile", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2904,6 +2984,7 @@ reqs    =
       "Building", "Super Highways", "City"
       "Building", "Stock Exchange", "City"
       "OutputType", "Gold", "Local"
+      "Tech", "Automobile", "Player"
     }
 
 [effect_super_highways_2]
@@ -2914,6 +2995,7 @@ reqs    =
       "Building", "Super Highways", "City"
       "Building", "Stock Exchange", "City"
       "OutputType", "Luxury", "Local"
+      "Tech", "Automobile", "Player"
     }
 
 [effect_super_highways_3]
@@ -2922,6 +3004,7 @@ value   = 100
 reqs    =
     { "type", "name", "range"
       "Building", "Super Highways", "City"
+      "Tech", "Automobile", "Player"
     }
 
 [effect_supermarket]
@@ -2932,6 +3015,7 @@ reqs    =
       "Special", "Farmland", "Local"
       "Building", "Supermarket", "City"
       "OutputType", "Food", "Local"
+      "Tech", "Refrigeration", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2947,6 +3031,7 @@ reqs    =
       "TerrainAlter", "CanIrrigate", "Local"
       "Building", "Supermarket", "City"
       "OutputType", "Food", "Local"
+      "Tech", "Refrigeration", "Player"
     }
 nreqs   =
     { "type", "name", "range"
@@ -2959,6 +3044,7 @@ value   = 1
 reqs    =
     { "type", "name", "range"
       "Building", "Temple", "City"
+      "Tech", "Ceremonial Burial", "Player"
     }
 
 [effect_temple_1]
@@ -2968,6 +3054,7 @@ reqs    =
     { "type", "name", "range"
       "Tech", "Mysticism", "Player"
       "Building", "Temple", "City"
+      "Tech", "Ceremonial Burial", "Player"
     }
 nreqs   =
     { "type", "name", "range"
