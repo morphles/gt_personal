@@ -398,4 +398,15 @@ set =
 	  "contactturns", 0
 	  "allowtake", "H"
 	  "revolen", 2
+	  "alliedvictory", "DISABLED"
+	  "scorelog", "ENABLED"
+	  "fixedlength", "ENABLED"
+	  "turnblock", "DISABLED"
+	  "unitwaittime",  28800
+	  "first_timeout", 259200
+	  "timeout", 86400
+	  "ec_info", "ENABLED"
+	  "ec_turns", 10
+	  "minplayers", 9
+	  "maxplayers", 9
     }
